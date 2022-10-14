@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        label {
+            font-weight: 600;
+        }
+
+        p {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="registophp.pho" method="get">
+
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" placeholder="Arturo Daniel">
+        </div>
+
+        <div>
+            <label for="Nombre">Apellidos</label>
+            <input type="text" id="Nombre" placeholder="Puente Aparicio">
+        </div>
+
+        <div>
+            <label for="Edad">Edad</label>
+            <input type="number" id="Edad" placeholder="32">
+        </div>
+
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" id="Email" placeholder="nombre@mail.com">
+        </div>
+
+        <div>
+            <label for="Numero">Número de telefono</label>
+            <input type="tel" id="Numero" placeholder="+34 777 7777 777">
+        </div>
+
+        <div>
+            <p>Aficiones:</p>
+            <input type="checkbox" name="Salir a correr" id=""> Salir a correr
+            <imput type="checkbox" name="Montar en bici" id=""> Montar en bici
+        </div>
+
+        <div>
+            <label for="Brevepresentacion">Breve presentacion</label>
+            <textarea name="Brevepresentacion:" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit"> Suscribirte a la newsletter</button>
+
+    </form>
+</body>
+
+</html>
